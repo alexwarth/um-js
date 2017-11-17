@@ -9,7 +9,7 @@ Files from my lectures about JavaScript in Dr. Stephen Murrell's class at Univ. 
   - My implementation of Bret Victor's scrubbing calculator: http://tinlizzie.org/~awarth/experiments/alex/scrub
   - Seymour, a live programming environment for the classroom: https://harc.github.io/seymour-live2017
   
-* Code written in class:
+### Code written in class:
   - Seismographic calculator: see lec1.html and lec1.js
 
 ## Lecture #2: Tuesday, Nov. 28, 2017 (I think)
