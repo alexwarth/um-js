@@ -89,6 +89,17 @@ function step(time) {
   requestAnimationFrame(step);
 }
 
+function addBall(x, y, vx, vy) {
+console.log('vx', vx, 'vy', vy);
+  const c = `rgb(
+      ${Math.floor(Math.random() * 256)},
+      ${Math.floor(Math.random() * 256)},
+      ${Math.floor(Math.random() * 256)})`;
+  const b =
+    new Ball(x, y, 30 + Math.random() * 20, c, vx, vy);
+  balls.push(b);
+}
+
 let mouseDownPos = null;
 window.onmousedown = e => {
   mouseDownPos = {x: e.x, y: e.y};
@@ -96,14 +107,16 @@ window.onmousedown = e => {
 window.onmouseup = e => {
   const vx = e.x - mouseDownPos.x;
   const vy = e.y - mouseDownPos.y;
-  const c = `rgb(
-      ${Math.floor(Math.random() * 256)},
-      ${Math.floor(Math.random() * 256)},
-      ${Math.floor(Math.random() * 256)})`;
-  const b =
-    new Ball(e.x, e.y, 30 + Math.random() * 20, c, vx, vy);
-  balls.push(b);
+  addBall(e.x, e.y, vx, vy);
 };
+
+for (let i = 0; i < 10; i++) {
+  addBall(
+    Math.random() * window.innerWidth,
+    Math.random() * window.innerHeight,
+    (Math.random() - 0.5) * 1000,
+    (Math.random() - 0.5) * 1000);
+}
 
 requestAnimationFrame(step);
 

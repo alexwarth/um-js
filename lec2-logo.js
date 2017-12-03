@@ -2,7 +2,7 @@
 
 const ctx = canvas.getContext('2d');
 
-let mouseX = 0, mouseY = 0;
+let mouseX = 20, mouseY = 20;
 window.onmousemove = e => {
   mouseX = e.x;
   mouseY = e.y;
@@ -15,7 +15,7 @@ function step() {
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
 
-  const seymour = {x: 300, y: 500, a: -90, c: 'blue'};
+  const seymour = {x: window.innerWidth / 2, y: 2 * window.innerHeight / 3, a: -90, c: 'blue'};
   seymour.turnBy = function(n) {
     this.a += n;
   };
