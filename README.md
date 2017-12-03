@@ -10,12 +10,12 @@ Files from my lectures about JavaScript in Dr. Stephen Murrell's class at Univ. 
   - Seymour, a live programming environment for the classroom: https://harc.github.io/seymour-live2017
   
 ### Code written in class:
-  - Seismographic calculator (lec1.html and lec1.js)
+  - [Seismographic calculator](http://alexwarth.github.io/projects/um-js/lec1.html) (lec1.html and lec1.js)
 
 ## Lecture #2: Tuesday, Nov. 28, 2017
 
 ### Code written in class:
-  - Intro to canvas (lec2-canvas.html and lec2-canvas.js)
-  - Bouncing balls: (lec2-balls.html and lec2-balls.js)
-  - "Logo" (lec2-logo.html and lec2-logo.js)
+  - [Intro to canvas](http://alexwarth.github.io/projects/um-js/lec2-canvas.html) (lec2-canvas.html and lec2-canvas.js)
+  - [Bouncing balls](http://alexwarth.github.io/projects/um-js/lec2-balls.html) (lec2-balls.html and lec2-balls.js)
+  - ["Logo"](http://alexwarth.github.io/projects/um-js/lec2-logo.html) (lec2-logo.html and lec2-logo.js)
 
